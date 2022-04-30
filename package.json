@@ -15,7 +15,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "alchemy-sdk-setup": "node scripts/1-initialize-sdk.js",
+    "alchemy-deploy-drop": "node scripts/2-deploy-drop.js",
+    "alchemy-deploy-membership-nft": "node scripts/3-config-nft.js",
+    "alchemy-set-membership-claims": "node scripts/4-set-claim-condition.js"
   },
   "eslintConfig": {
     "extends": [
